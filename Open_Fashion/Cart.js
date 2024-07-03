@@ -39,7 +39,7 @@ export default function Cart() {
                 <View style={styles.cartItemText}>
                     <Text style={{fontWeight:'600'}}>{item.title}</Text>
                     <Text style={{fontSize:13}}>{item.description}</Text>
-                    <Text style={{color:'#dd8560', fontWeight:'bold', fontSize:17, marginTop:3}}>$120</Text>
+                    <Text style={{color:'#dd8560', fontWeight:'bold', fontSize:17, marginTop:3}}>{item.ammount}</Text>
                 </View>
 
                 <View>
